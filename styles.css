@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(270deg, rgba(255,0,0,1) 0%, rgba(252,245,69,1) 100%) black;
+}
+input{
+    display: block;
+    margin: auto;
+    zoom: 3;
+    outline: none;
+    border: black solid;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 1em;
+    width: 150px;
+    text-transform: lowercase;
+}
+.span{
+    font-size: 30px;
+    margin-left: 10px;
+    color: black;
+}
+a{
+    text-decoration-color: black;
+}
+@media (pointer:none), (pointer:coarse) {
+    .span{
+        font-size: 50px;
+    }
+    input{
+        zoom: 5;
+    }
+}
